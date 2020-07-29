@@ -10,50 +10,86 @@
         android:id="@+id/textview1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp"
         android:text="View 1"
-        android:background="@color/colorPrimaryDark"/>
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
 
     <TextView
         android:id="@+id/textview2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textview1"
-        android:layout_alignLeft="@+id/textview1"
+        android:layout_below="@+id/textview1"
+        android:layout_toRightOf="@+id/textview1"
         android:text="View 2"
-        android:background="@color/colorAccent"/>
-
+        android:background="@color/colorAccent"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
     <TextView
         android:id="@+id/textview3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textview2"
-        android:layout_alignLeft="@+id/textview2"
+        android:layout_below="@+id/textview2"
+        android:layout_toRightOf="@+id/textview2"
         android:text="View 3"
-        android:background="@color/colorPrimary"/>
-
+        android:background="@color/colorPrimary"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
     <TextView
         android:id="@+id/textview4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textview3"
-        android:layout_alignLeft="@+id/textview3"
+        android:layout_below="@+id/textview3"
+        android:layout_toRightOf="@id/textview3"
         android:text="View 4"
-        android:background="#D88C60"/>
-
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:background="#B191DF"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
     <TextView
-        android:id="@+id/textview5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textview1"
-        android:layout_alignLeft="@+id/textview1"
-        android:text="View 5"
-        android:background="#9E644F"/>
+    android:id="@+id/textview5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textview4"
+    android:layout_toLeftOf="@id/textview4"
+    android:text="View 5"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="#FF1744"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"/>
     <TextView
+        android:id="@+id/textview6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textview5"
-        android:layout_alignLeft="@+id/textview1"
+        android:layout_toLeftOf="@id/textview5"
         android:text="View 6"
-        android:background="#f24"/>
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:background="#00E676"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:id="@+id/textview7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview6"
+        android:layout_toLeftOf="@id/textview6"
+        android:text="View 7"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:background="#FFC400"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
 </RelativeLayout>
